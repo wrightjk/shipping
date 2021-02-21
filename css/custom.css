@@ -1,0 +1,74 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ /* color scheme
+light pink: #fcded6;
+salmon: #f8c7ae;
+sage: #a9b39e;
+eggplant: #644758;
+brown olive: #7c655a;
+ */
+
+ h1 {
+ 	font-family: font-family: 'Nanum Gothic', sans-serif;
+ }
+
+ h2 {
+ 	font-family: font-family: 'Nanum Gothic', sans-serif;
+ 	background-color: #a9b39e;
+ 	color: white;
+ 	text-align: center;
+ }
+
+ body {
+ 	background-color: #dad1bf;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ p {
+ 	text-align: center;
+ }
+
+#mainNav {
+	background-color: #a9b39e;
+}
+
+#header-bg {
+	background-color: #7c655a;
+}
+
+#title {
+	color: white;
+}
+
+#title:hover {
+	color: #7c655a;
+}
+
+.nav-link {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+	color: #7c655a;
+}
+
+/* KEEP THESE STYLES */
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+/* END OF KEEP THESE STYLES */

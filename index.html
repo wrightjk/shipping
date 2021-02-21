@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Shipping Dashboard assignment for SMAD 404 using Bootstrap and p5.js.">
+      <meta name="author" content="Jessica Kali Wright">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Dashboard</title>
+
+    <!-- Bootstrap v5.0.0-beta1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" id="title" href="#page-top">Shipping Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#alerts">Alerts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#status">Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#shipping">Shipping</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="text-white" id="header-bg">
+      <div class="container text-center">
+        <h1>Greys Auction House</h1>
+        <p class="lead">A shipping Dashboard for Greys Auction House</p>
+      </div>
+    </header>
+    <div class="container">
+    <section id="alerts">
+      <!-- PUT YOUR FIRST SECTION DIVS/COLUMNS HERE -->
+      <div class="row">
+        <h2> alerts </h2>
+        <div class="col">
+          <iframe src="https://openprocessing.org/sketch/1108034/embed/?plusEmbedHash=YzdkYTJlMDdhMjI0MGI4OTQ0NjFhNGIxOThhMTU5YTVmZDZmOGEzZWI4ZDExNTIwOGE3ZDM5MzEzYzc2ZDcxMDQxZjk4YWFlYmNlNDBlNTY2OGNmMzQwYTc5MWQ5NjcxNTY5MzljMGYxOGMwOWE0NTFkMzAyYjM1NDBjNjA4MzFpa0tQNTE2RXMxRlZGZlhwMVZZV0ZIY0Y4VEx4bjlRalB2RTlhQVJtSzZBREdJNUcwaGJUL2crS3IxWVNNOHNOR3VoTVRwSlV2eVRoeWpoYXVJWlFvZz09&plusEmbedTitle=true" width="500" height="600"></iframe>   
+        <!-- END OF LARGE COL -->
+        </div>
+
+        <div class="col">
+          <iframe src="https://openprocessing.org/sketch/1107966/embed/?plusEmbedHash=Njk1MDMzMDQzMTYzMzIzYjVlMjkwOTEwNjBkNmVkYWFjZmE0YTBjM2YxZTM0YjMzMzM3MzQ1OTE4YjFhZGM1NjI2ZWQxZTk4ODhkMzQzOGI1Y2UzY2Q4MmNiMjAxNWU3ZDE2NWNjYTA4Y2NlOTBjOTUwMWY4YmRjOTE0MmUxZmVwZno0NGVYSmgwS25jK2N6L2ZLem9NbjdNdFNoMWNiL3RoOVJhMDlBUWFoWXNFRDYxb2U2WGU0d0prbCttL2ZSZlpHQTlzZyszbDFZb1dqcXlPZWN4dz09&plusEmbedTitle=true" width="700" height="600"></iframe>
+        <!-- END OF ALERTS COL -->
+        </div>
+        <p> Check important alerts here. What are the current largest orders? Have they been delivered on time? </p>
+      <!-- END OF ROW ONE -->
+      </div>
+    </section>
+
+    <section id="status">      
+      <div class="row">
+        <h2>status</h2>
+        <div class="col">
+          <iframe src="https://openprocessing.org/sketch/1107944/embed/?plusEmbedHash=MDZiNThiZWQ3ODg1OTdkMjQ3ZGI4ZjljNzIwZTY5NmE1YjkxYzMyNDNlOGQ5Nzk1N2QwNmZkYjE4MWRhY2FlMTNmZjIzZDQ3ZmI3NDNhYjRlOTNlODE3ZjcwYTE3Yzg5MGQ5ZWJjYWVhYjY4ZWMwOTU3MWVlMzgxMjI4ZDMyZjVOTmw5eXlPSUhRRm0wS2ljL3doamttZkF2VTFIZXhjQTRZQUI4OUNrYnZzY0RwcVE2Y0dsbjN5dWV0UkdnYXdFSHpiek5BOHVtWldOQkQvRy8rdGxoUT09&plusEmbedTitle=true" width="1300" height="600"></iframe>
+        <!-- END OF STATUS COL -->
+        </div>
+        <p> Check overall status of all orders, including names, number of boxes, whether the have been delivered or not, due dates, and weight. </p>
+      <!-- END OF ROW TWO -->
+      </div>
+    </section>
+
+    <section id="shipping">
+    	<!-- PUT YOUR THIRD SECTION DIVS/COLUMNS HERE -->
+		
+    <div class="row">
+      <h2>shipping</h2>
+      <div class="col">
+		    <iframe src="https://openprocessing.org/sketch/1108549/embed/?plusEmbedHash=MTA0Yjg0NWYxMWYwNzc1ZDU0Mzg3OTMxMWMyMDgyYzI4OTA4NDcxNWI0MzY0YjE5ODUyYzhhNTgyMGY0NGViYWU3MWJlY2M4MDMwYjc2NGJiNWRkYTdmMTllY2ViNjgwYTFlYzQzMDg3ODI3NmMxYWQ5ZjkyZWIxMGVhMmE5ZThZc2U0eE00bXcxZUtmZkxIaHJHTDRrSlN3TmEyYzNNY21CVWtXK2d0WHN6TXhoOEIrQ3RQNzFOZm9sQ3l5ZVBMU0FpbFluNk52R29EeUdld1lxRUhGZz09&plusEmbedTitle=true" width="1300" height="900"></iframe>
+      <!-- END OF SHIPPING COL -->
+      </div>
+      <p> Check shipping information of all orders, including which truck the shipment will be on according to the designated location's zipcode. Completed order numbers will be in green, while incomplete orders will be in red. </p>
+    <!-- END OF ROW THREE -->
+    </div>
+    </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      	<!-- PUT YOUR FOOTER CONTENT HERE -->
+    </footer>
+
+    <!-- jQuery and Bootstrap links - do not delete! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <!-- end of do not delete -->
+    
+
+  </body>
+
+</html>
